@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Restaurant</title>
+    <link rel="stylesheet" href="Burger House update.css">
+    <!-- Add Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-hamburger"></i> <!-- Hamburger icon -->
+                <span>Burger House</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Burger House</h1>
+            <p>Delicious burgers made with love</p>
+            <a href="#menu" class="btn">View Menu</a>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="./Images/Burger1.png" alt="Burger 1">
+                <h3>Classic Burger</h3>
+                <p>A classic beef burger with lettuce, tomato, and cheese.</p>
+                <span>$10.00</span>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Burger 2">
+                <h3>Cheese Burger</h3>
+                <p>A juicy beef burger with double cheese.</p>
+                <span>$12.00</span>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1596662951482-0c4ba74a6df6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Burger 3">
+                <h3>Veggie Burger</h3>
+                <p>A delicious veggie burger for our vegetarian friends.</p>
+                <span>$9.00</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="./Images/kbnas.jpg" alt="About Me">
+            <div class="about-text">
+                <h3>Hi, I'm John Doe</h3>
+                <p>I'm the founder and head chef at Burger House. With over 10 years of experience in the culinary world, I've dedicated my life to creating the most delicious and mouth-watering burgers. My passion for food and commitment to quality ensures that every burger we serve is made with love and the freshest ingredients.</p>
+                <p>When I'm not in the kitchen, I enjoy exploring new recipes, traveling, and spending time with my family.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-form">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Burger House. All rights reserved.</p>
+        <p>Contact us: info@burgerhouse.com</p>
+    </footer>
+
+    <script src="Burger House update.js"></script>
+</body>
+</html>
